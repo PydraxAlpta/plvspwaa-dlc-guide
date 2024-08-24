@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professor Layton vs. Phoenix Wright: Ace Attorney DLC Guide</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+  </head>
+  <body>
+    <h1>Professor Layton vs. Phoenix Wright: Ace Attorney DLC Guide</h1>
+    <p>
+      This is a guide for installing the Professor Layton vs. Phoenix Wright:
+      Ace Attorney DLC. This works on the latest releases of
+      <a href="https://lime3ds.github.io/">Lime 3DS</a> and
+      <a href="https://github.com/PabloMK7/citra/releases">PabloMK7/Citra</a>
+      forks.
+    </p>
+
+    <h2>Getting the extdata</h2>
+    <p>
+      These are my archives, made from a US Release of the game. I am not sure
+      they will work for other regions, but given the 3DS's region locking, they
+      most likely wont.
+    </p>
+    <a href="archives/00001007.7z" download
+      ><button>7z archive of extdata</button></a
+    >
+    <a href="archives/00001007.zip" download
+      ><button>zip archive of extdata</button></a
+    >
+    <p>
+      You can also extract your own data from your 3DS, using FBI and/or
+      checkpoint.<br />
+      <a
+        href="https://gbatemp.net/threads/dump-share-your-spotpass-data-for-games.580265/post-9323439"
+        >This GBATemp Discussion has info on how to get the spotpass data for a
+        file.</a
+      ><br />
+      <a href="https://github.com/BernardoGiordano/Checkpoint"
+        >This is the Checkpoint github and has info for how to use it.</a
+      >
+    </p>
+
+    <h2>Adding the extdata</h2>
+    <p>
+      Launch your Citra fork - must be one of the newer releases - tested on
+      lime3ds 2115 and PabloMK7/Citra release 518f723.
+    </p>
+    <p>
+      Open your extdata folder from the right click context menu of the game as
+      shown.
+    </p>
+    <p>
+      <img
+        src="images/lime3DS-gotoextdata.png"
+        alt="Citra open extdata folder from context menu"
+      />
+      <details>
+        <summary>If image isn't loading / for accessibility</summary>
+        Right click the game in the citra fork's home menu, and then select
+        Open. Then select Extra Data Location from the second menu that opens.
+        This should open the extdata folder in the file explorer.
+      </details>
+      <img src="images/extdata-folder-citra.png" alt="Citra extdata folder" />
+      <details>
+        <summary>If image isn't loading / for accessibility</summary>
+        This shows the contents of the citra extdata folder for the game.
+      </details>
+    </p>
+    <p>
+      <b>Replace</b> the contents of this folder with the contents of the
+      archive you downloaded.
+      <img src="images/archive-contents.png" alt="Archive Contents" />
+      <img
+        src="images/windows-replace-dialog.png"
+        alt="Windows File Copy - Replace Files Dialog"
+      />
+      <details>
+        <summary>If image isn't loading / for accessibility</summary>
+        Images showing the contents of the zip/7z files and that you should
+        choose replace files with the dialog prompt that shows up
+      </details>
+      <details>
+        <summary>For users with their own data</summary>
+        <p>
+          If you manually extracted your spotpass and extdata, then the spotpass
+          archive's file (which for me has a name made of special characters,
+          and no extension) goes in <code>boss</code>, and the
+          <code>sd_vs1.bin</code> file goes in the <code>save</code> folder.
+        </p>
+      </details>
+    </p>
+    <h2>Running the DLC</h2>
+    <p>
+      Once the extdata is added, if you have a completed game save file, you
+      should be able to access the extra content of the game. To do this from
+      the home menu, select extra content, and if the loading does not crash,
+      you should see the next menu for viewing either the special episodes or
+      the special gallery.
+      <img
+        src="images/ingame-home-menu.png"
+        alt="PLvsPW:AA home menu, select extra content"
+      />
+      <img
+        src="images/ingame-extra-content.png"
+        alt="Loaded extra content on
+      successful load of the extdata"
+      />
+    </p>
+    <h3>Troubleshooting</h3>
+    <p>WIP</p>
+    <p>Enjoy :3</p>
+  </body>
+</html>
