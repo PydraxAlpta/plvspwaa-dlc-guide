@@ -4,7 +4,7 @@ This is a guide for installing the Professor Layton vs. Phoenix Wright: Ace Atto
 
 ## Getting the extdata
 
-These are my archives, made from a US Release of the game. I am not sure they will work for other regions, but given the 3DS's region locking, they most likely wont.
+These are my archives, made from a US Release of the game. However I cross checked with a friend with an EU copy, and the same files were present, so it should work.
 
 [7z archive of extdata](archives/00001007.7z) [zip archive of extdata](archives/00001007.zip)
 
