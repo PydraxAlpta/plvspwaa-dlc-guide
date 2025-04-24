@@ -48,7 +48,7 @@ If you manually extracted your spotpass and extdata, then the spotpass archive's
 
 2. Copy the folder for your version of the game from the extdata archive to your 3DS SD card.
 
-3. Assuming you have one now, you need to open the game, go to extra content, open your completed save file, then select unlock content. You do not need a setup such as pretendo for this. This should create dummy extra data. You can cancel the download at this step, as it will not succeed and waiting will only waste your time. (Optimally you cancel as soon as the "downloading" progress bar starts going up).
+3. Assuming you have one now, you need to open the game, go to extra content, open your completed save file, then select unlock content. You do not need a setup such as pretendo for this, but you should be connected to the internet. This should create dummy extra data. You can cancel the download at this step, AFTER it says "creating extra data...", as it will not succeed and waiting will only waste your time. (Optimally you cancel as soon as the "downloading" progress bar starts going up).
 
 4. Close the game. Open FBI, choose the first option "SD" and navigate to the folder with the DLC files for your game that you stored in step 2. Select `sd_vs1.bin` with `A`, and then select Copy.
 
