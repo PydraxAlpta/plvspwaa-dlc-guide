@@ -14,7 +14,7 @@ You can also extract your own data from your 3DS, using FBI and/or checkpoint.
 [This GBATemp Discussion has info on how to get the spotpass data for a file.](https://gbatemp.net/threads/dump-share-your-spotpass-data-for-games.580265/post-9323439)  
 [This is the Checkpoint github and has info for how to use it.](https://github.com/BernardoGiordano/Checkpoint)
 
-If you are trying to get the DLC working on the emulator, skip to the section after the emulator stuff - the files need to be placed differently. You will need a [hacked 3DS](https://3ds.hacks.guide).
+If you are trying to get the DLC working on a real 3DS, skip to the section after the emulator stuff - the files need to be placed differently. You will need a [hacked 3DS](https://3ds.hacks.guide).
 
 ## Adding the extdata - Emulator
 
@@ -35,7 +35,7 @@ This should open the extdata folder in the file explorer.
 **Replace** the contents of this folder with the contents of the archive you downloaded.
 ![Archive Contents](images/archive-contents.png) ![Windows File Copy - Replace Files Dialog](images/windows-replace-dialog.png)
 
-- Images showing the contents of the zip/7z files and that you should
+- Images showing the contents of the zip files and that you should
 choose replace files with the dialog prompt that shows up
 
 ### For users with their own data
@@ -50,9 +50,9 @@ If you manually extracted your spotpass and extdata, then the spotpass archive's
 
 3. Assuming you have one now, you need to open the game, go to extra content, open your completed save file, then select unlock content. You do not need a setup such as pretendo for this, but you should be connected to the internet. This should create dummy extra data. You can cancel the download at this step, AFTER it says "creating extra data...", as it will not succeed and waiting will only waste your time. (Optimally you cancel as soon as the "downloading" progress bar starts going up).
 
-4. Close the game. Open FBI, choose the first option "SD" and navigate to the folder with the DLC files for your game that you stored in step 2. Select `sd_vs1.bin` with `A`, and then select Copy.
+4. Close the game. Open FBI, choose the first option "SD" and navigate to the folder with the DLC files for your game that you stored in step 2. Select `sd_vs1.bin` with `A`, and then select Copy. ![FBI your directory on the SD card](images/fbi-copied-dir.png)
 
-5. Navigate backwards through the menu to the home of the FBI app. This time, choose "Ext Save Data", and then after waiting for it to load, navigate to Layton vs Ace Attorney and then press `A`. Select "Browse User Save Data", then select "&lt;current directory&gt;", then Paste.
+5. Navigate backwards through the menu to the home of the FBI app. ![FBI main menu](images/fbi-main-menu.png)  This time, choose "Ext Save Data", and then after waiting for it to load, navigate to Layton vs Ace Attorney ![FBI Navigation to PLvsPWAA](images/fbi-ext-save-data.png) and then press `A`. Select "Browse User Save Data",![FBI Ext Data Action](images/fbi-ext-data-action.png) then select "&lt;current directory&gt;", then Paste.
 
 6. Now, we have to go all the way back to the root folder and find the DLC files as with step 4. This time, choose the other file with symbols in the name (`!!!!#!!!$w!!+s'`), press `A` and select `Copy`.
 
