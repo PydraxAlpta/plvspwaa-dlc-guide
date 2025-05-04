@@ -6,6 +6,8 @@ This is a guide for installing the Professor Layton vs. Phoenix Wright: Ace Atto
 
 These are my archives, made from a US Release of the game. When it comes to emulators, these will work for other versions as well. However, for real 3DS devices, the correct version of the spotpass file matters.
 
+**Note:** Should you face any issues using the US archive for emulator, try using the files from the real 3DS archive with the emulator folder (refer section on using your own files for instructions on how to place them).
+
 EMULATOR: [Archive of extdata](archives/00001007.zip)
 
 REAL 3DS: [Archives of extdata for different versions, organized by version](archives/PLvsAA.zip). Thanks to [patata](https://patataofcourse.github.io/) for providing these.
