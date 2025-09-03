@@ -4,13 +4,13 @@ This is a guide for installing the Professor Layton vs. Phoenix Wright: Ace Atto
 
 ## Getting the extdata
 
-These are my archives, made from a US Release of the game. When it comes to emulators, these will work for other versions as well. However, for real 3DS devices, the correct version of the spotpass file matters.
+These are my archives, made from a US Release of the game. If you have a US Release, you can download this one and follow the extraction steps the guide mentions. However, if your version is different, then your steps will be similar, but you will have to place the appropriate `!!!!#!!!$w!!+s'` and `sd_vs1.bin` files in the similar locations.
 
 **Note:** Should you face any issues using the US archive for emulator, try using the files from the real 3DS archive with the emulator folder (refer section on using your own files for instructions on how to place them).
 
-EMULATOR: [Archive of extdata](archives/00001007.zip)
+FOR US: [Archive of extdata](archives/00001007.zip)
 
-REAL 3DS: [Archives of extdata for different versions, organized by version](archives/PLvsAA.zip). Thanks to [patata](https://patataofcourse.github.io/) for providing these.
+FOR OTHER REGIONS: [Archives of extdata for different versions, organized by version](archives/PLvsAA.zip). Thanks to [patata](https://patataofcourse.github.io/) for providing these.
 
 You can also extract your own data from your 3DS, using FBI and/or checkpoint.  
 [This GBATemp Discussion has info on how to get the spotpass data for a file.](https://gbatemp.net/threads/dump-share-your-spotpass-data-for-games.580265/post-9323439)  
@@ -40,7 +40,7 @@ This should open the extdata folder in the file explorer.
 - Images showing the contents of the zip files and that you should
 choose replace files with the dialog prompt that shows up
 
-### For users with their own data
+### For users with their own data OR following through using the other region's files
 
 If you manually extracted your spotpass and extdata, then the spotpass archive's file (`!!!!#!!!$w!!+s'`) goes in `boss`, and the `sd_vs1.bin` file goes in the `save` folder.
 
