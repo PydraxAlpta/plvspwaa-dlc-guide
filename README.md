@@ -43,6 +43,8 @@ choose replace files with the dialog prompt that shows up
 ### For users with their own data OR following through using the other region's files
 
 If you manually extracted your spotpass and extdata, then the spotpass archive's file (`!!!!#!!!$w!!+s'`) goes in `boss`, and the `sd_vs1.bin` file goes in the `save` folder.
+![Azahar extdata boss folder](images/extdata-boss-folder.png)
+![Azahar extdata user folder](images/extdata-user-folder.png)
 
 ## Process for real 3DS devices
 
